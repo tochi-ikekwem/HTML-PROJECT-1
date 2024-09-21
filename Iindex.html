@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+   
+    
+    
 </head>
 <body>
-    <h1>My Portfolio</h1>
 
-    <header>
-        <nav>
+    <h1 class="header">My Portfolio</h1>
+    
+
+
+    <section>
+        <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -18,10 +25,13 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </section>
+
 
     <main>
-        <div>
+        <img src="assets/IMG_20240521_095117_308.jpg" alt="">
+
+        <div class="text">
             <h1>About</h1>
 
             <p>My name is Tochi. I am currently learning software development. I am an Author and i love artistry. creation is a source of inspiration for me, and this is because creation speaks of the existance of God.
@@ -37,12 +47,12 @@
         </div>
 
         <div>
-            <h2>Contact</h2>
-            <form>
-                <input type="text" id="name" placeholder="Name"><br>
-                <input type="email" id="email" placeholder="Email"><br>
-                <input type="number" id="number" placeholder="Number"><br>
-                <Textarea cols="20" role="5" id="massage" placeholder="Write here"></Textarea><br>
+            <h2 id="text2">Contact</h2>
+            <form class="input">
+              <input type="text" id="name" placeholder="Tochi Ikekwem"><br>
+              <input type="email" id="email" placeholder="kematochi@gmail.com"><br>
+              <input type="number" id="number" placeholder="07066595693"><br>
+                <!-- <Textarea cols="20" role="5" id="massage" placeholder="Write here"></Textarea><br> -->
                 <button>Submit</button>
             </form>
         </div>
